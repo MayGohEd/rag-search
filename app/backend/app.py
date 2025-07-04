@@ -5,6 +5,11 @@ import logging
 import mimetypes
 import os
 import time
+import streamlit as st
+
+st.title("🚀 LLM Project RAG Demo")
+st.write("If you're seeing this, Streamlit is running successfully.")
+
 from collections.abc import AsyncGenerator
 from pathlib import Path
 from typing import Any, Union, cast
