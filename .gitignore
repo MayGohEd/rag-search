@@ -150,3 +150,7 @@ static/
 data/**/*.md5
 
 .DS_Store
+.venv/
+__pycache__/
+.DS_Store
+vector_db/
